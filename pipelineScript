@@ -1,0 +1,4 @@
+node {
+  stage 'Run JMeter Test'
+  bat 'E:/jmeter3.1/apache-jmeter-3.1/bin/jmeter.bat -n -t C:/Users/IDC-18/Desktop/test.jmx -l test.jtl'
+}
